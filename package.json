@@ -1,0 +1,23 @@
+{
+  "name": "diff2browser",
+  "version": "1.0.0",
+  "description": "Parse git diff output into browser",
+  "keywords": [
+    "git",
+    "diff",
+    "browser"
+  ],
+  "author": "Bozhidar Dryanovski <bozhidar.dryanovski@gmail.com> (https://github.com/bdryanovski)",
+  "license": "MIT",
+  "bin": {
+    "diff2browser": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdryanovski/diff2browser.git"
+  },
+  "dependencies": {
+    "diff2html": "^3.1.6",
+    "open": "^7.0.3"
+  }
+}
